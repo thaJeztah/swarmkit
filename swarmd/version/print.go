@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"io"
 	"os"
+
+	version2 "github.com/moby/swarmkit/v2/version"
 )
 
 // FprintVersion outputs the version string to the writer, in the following
@@ -16,7 +18,7 @@ import (
 //
 //	registry github.com/docker/distribution v2.0
 func FprintVersion(w io.Writer) {
-	fmt.Fprintln(w, os.Args[0], Package, Version)
+	fmt.Fprintln(w, os.Args[0], version2.Package, version2.Version)
 }
 
 // PrintVersion outputs the version information, from Fprint, to stdout.
