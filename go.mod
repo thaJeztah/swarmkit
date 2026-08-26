@@ -10,7 +10,7 @@ require (
 	github.com/container-storage-interface/spec v1.2.0
 	github.com/distribution/reference v0.5.0
 	github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c
-	github.com/docker/go-metrics v0.0.1
+	github.com/docker/go-metrics v0.1.0
 	github.com/fernet/fernet-go v0.0.0-20211208181803-9f70042a33ee
 	github.com/gogo/protobuf v1.3.2
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
